@@ -57,7 +57,6 @@ namespace BoardUtils
 	constexpr int IMPORT_SCALE = 1000000;
 
 	constexpr int SCREEN_YUV_RANGE_LIMIT = 2;
-
 	constexpr int SCREEN_CRC_LINES = 2;
 	constexpr int SCREEN_CRC_COUNT = 5;
 	constexpr int SCREEN_MAX_CRC_BRIGHTNESS_ERROR = 255;
