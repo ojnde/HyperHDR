@@ -53,7 +53,6 @@ namespace BoardUtils
 	constexpr int SCREEN_COLOR_DIMENSION = (256 / SCREEN_COLOR_STEP) + 1;
 
 	constexpr int MAX_INDEX = SCREEN_COLOR_DIMENSION - 1;
-
 	constexpr int IMPORT_SCALE = 1000000;
 
 	constexpr int SCREEN_YUV_RANGE_LIMIT = 2;
