@@ -47,15 +47,15 @@ namespace BoardUtils
 
 	constexpr long long int MAX_CALIBRATION_ERROR = 500000000;
 
-	constexpr int SCREEN_BLOCKS_X = 48;
-	constexpr int SCREEN_BLOCKS_Y = 30;
-	constexpr int SCREEN_COLOR_STEP = 16;
-	constexpr int SCREEN_COLOR_DIMENSION = (256 / SCREEN_COLOR_STEP) + 1;
 
 
 	constexpr int MAX_INDEX = SCREEN_COLOR_DIMENSION - 1;
 	constexpr int IMPORT_SCALE = 1000000;
 
+	constexpr int SCREEN_BLOCKS_X = 48;
+	constexpr int SCREEN_BLOCKS_Y = 30;
+	constexpr int SCREEN_COLOR_STEP = 16;
+	constexpr int SCREEN_COLOR_DIMENSION = (256 / SCREEN_COLOR_STEP) + 1;
 	constexpr int SCREEN_YUV_RANGE_LIMIT = 2;
 	constexpr int SCREEN_CRC_LINES = 2;
 	constexpr int SCREEN_CRC_COUNT = 5;
